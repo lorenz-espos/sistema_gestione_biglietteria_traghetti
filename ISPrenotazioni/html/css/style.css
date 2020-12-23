@@ -1,0 +1,161 @@
+#sticky-navbar {
+    position: sticky;
+    margin-left: 0!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto!important;
+    display: block;
+    background-color: #333;
+    z-index: 400!important;
+
+}
+
+#sticky-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    height: auto!important;
+    width: auto!important;
+
+}
+
+#sticky-navbar ul li {
+    float: left;
+    display: inline;
+    color: #fff;
+    height: auto;
+    width: auto;
+}
+
+#sticky-navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    font-size: 1.5em!important;
+    font-family: 'Poppins', sans-serif!important;
+}
+
+#sticky-navbar ul li a:hover {
+    background-color: #07dd8f;
+    color: #333;
+}
+
+#wrapper {
+    background-color: #e7e7e7;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin-top: auto;
+}
+
+#notice-wrapper {
+    float: left;
+    margin-left: auto;
+    background-color: cadetblue;
+}
+
+#body-header-wrapper {
+    background-color: white;
+    height: auto;
+    margin-top: 0px;
+    width: 100%;
+}
+
+#body-header {
+
+    width: 100%;
+    min-height: 200px;
+
+}
+
+#body-header img {
+
+    opacity: 0.7;
+    width: 100%;
+
+}
+
+#heading-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#body-header-heading {
+
+
+
+    font-size: 2.5em;
+    font-weight: 600;
+    color: white;
+    font-family: 'Poppins', sans-serif!important;
+    background-color: rgba(23, 196, 190, 0.67);
+    padding: 10px;
+    margin-bottom: 20px;
+    word-break: keep-all;
+
+}
+
+#body-header-button a {
+
+
+
+    font-size: 1.5em!important;
+
+
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+#body-header-button a:hover {
+
+    background-color: rgba(255, 255, 255, 0.62);
+    color: #333;
+
+}
+
+.form-wrapper {
+    text-align: center;
+    width: 500px;
+    clear: both;
+    position: relative;
+    left: 35%;
+}
+
+.form-wrapper input {
+
+    width: 100%;
+    clear: both;
+
+}
+.login-wrapper{
+    width:350px;
+    margin:auto;
+}
+.register-wrapper{
+    width:350px;
+    margin:auto;
+}
+.container-fluid{
+
+    padding-left:0px!important;
+    padding-right:0px!important;
+}
